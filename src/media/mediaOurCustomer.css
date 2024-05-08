@@ -1,0 +1,19 @@
+@media (max-width:1400px) {
+  .carousel-control-prev {
+    left: 0px !important;
+  }
+  
+  .carousel-control-next {
+    right: 0px !important;
+  }
+}
+
+@media (max-width:1090px) {
+  .carousel-control-prev {
+    left: -80px !important;
+  }
+  
+  .carousel-control-next {
+    right: -80px !important;
+  }
+}

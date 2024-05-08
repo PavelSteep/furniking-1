@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, main, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  box-sizing:border-box;
+	/* font-size: 100%; */
+	/* font: inherit; */
+	/* vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, main, hgroup, menu, nav, section {
+	display: block;
+}
+/* body {
+	line-height: 1;
+} */
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+	/* fonts */
+  --mulish:"Mulish", sans-serif;
+  --rubik:"Rubik", sans-serif;  
+  /* --poppins:"Poppins", sans-serif; */
+  --DMSans:"DM+Sans", sans-serif;  
+
+  /* colors */
+  /* лимонный */
+  --limerick:#7AC751;
+  /* тёмно-серый */
+  --dark-grey:#555555;
+  /* светло-серый */
+  --light-grey:#B0B0B0;
+  /* светло-серый 2 */
+  --light-grey2:#F7F8FA;
+  /* чёрно-серый или глубокий серый */
+  --deep-gray:#2F2F2F;
+  /* серый #515151 71% */
+  --rgba-gray:rgba(81, 81, 81, 0.71);
+  /* светло-серый или серебристый */
+  --silver: #C2C2C2;
+  /* тёмно-серый #757575 71% */
+  --dark-gray2rgba: rgba(117, 117, 117, 0.71);
+  /* светло-серый или серебристый */
+  --silver2: #CCCCCC ;
+  /* ярко-красный bright red или красный с оттенком коралла coral red */
+  --bright-red: #FF6868;
+  /* тёмно-серый */
+  --dark-grey3: #515151;
+  
+	--yellow:#F7B927;
+  --light-red:#E3000E;
+  --white:#ffffff;
+  --light-white:#f7f7f7;
+  --black:#000;
+  --light-black:#333;
+  --p-text:#757575;
+  --coffee:#642F21;
+  --menu:#6F5E4D;
+  --white-grey:#F6F9FA;
+
+  /* background-color */
+  /* серебристый */
+  --silver: #E3E3E3;
+  /* ярко-зелёный */
+  --bright-green: #0ddd21;
+  /* светлый оттенок голубого цвета */
+  --light-blue:#F9FDFF;
+  /* лаймово-зелёный #7AC751 29% */
+  --lime-green: rgba(122, 199, 81, 0.29);
+  /* ярко-голубой (bright blue) или небесно-голубой (sky blue) */
+  --sky-blue: #00B7F1;
+  /* очень светлый серый (very light gray) или близкий к белому но не белый off-white  */
+  --off-white: #F8FAFB;
+  /* белый с изумрудным(white smoke) или светло серым(light grayish) оттенком */
+  --white-smoke: #F8FAFB;
+
+  /* border */
+  /* серый цвет без оттенков */
+  --dim-gray: #969696;
+}
+
+h1, h2, h3, h4, h5{
+  /* font-family:var(--oswald); */
+  font-weight:500;
+  font-family: var(--rubik);
+  letter-spacing:0,5px;
+  text-transform: initial;
+  white-space: normal;
 }

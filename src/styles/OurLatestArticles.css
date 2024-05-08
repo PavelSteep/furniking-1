@@ -1,0 +1,94 @@
+.section_our_latest_articles {
+  width: 100%;
+  height: auto;
+}
+
+.section_our_latest_articles h2 {
+  font-family: var(--mulish);
+  font-size: 36px;
+  color: var(--dark-grey);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  height: 100%;
+}
+
+.card-background {
+  width: 570px;
+  max-width: 570px;
+  height: 455px;
+  max-height: 455px;
+  background-size: 100% 100%; /* Изображение будет растягиваться по ширине и высоте, чтобы заполнить задний фон карточки */
+  background-repeat: no-repeat; /* Запрет повторения фона */
+  background-position: center; /* Выравнивание изображения по центру */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-link-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-link-img p.card-text {
+  font-family: var(--mulish);
+  font-size: 14px;
+  color: var(--white);
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.card-backgroundNewLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  height: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.card-backgroundNewLabel img {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.card-backgroundNewLabel p.brand-text {
+  font-family: var(--DMSans);
+  font-size: 12px;
+  color: var(--limerick);
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.card-content h5.custom-title {
+  font-family: var(--mulish);
+  font-size: 39px;
+  color: var(--white);
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-content p.custom-text {
+  font-family: var(--DMSans);
+  font-size: 14px;
+  color: var(--white);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+

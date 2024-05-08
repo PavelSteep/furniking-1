@@ -1,0 +1,135 @@
+@media (max-width:1650px) {
+  .pagination_content {
+    margin-left: -60%;
+  }
+  .button_arrows {
+    margin-right:20%;
+  }
+}
+
+@media (max-width:1380px) {
+  .button_first_left {
+    margin-right: -10%;
+  }
+}
+
+@media (max-width:1100px) {
+  .button_first_left {
+    margin-right: -20%;
+  }
+}
+
+@media (max-width:908px) {
+  .button_first_left {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width:884px) {
+  .button_first_left {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width:767px) {
+  .button_first_left {
+    margin-left: 45%;
+  }
+}
+
+@media (max-width:602px) {
+  .button_first_left {
+    margin-left: 43%;
+  }
+}
+
+@media (max-width:586px) {
+  .button_first_left {
+    margin-left: 42%;
+  }
+}
+
+@media (max-width:578px) {
+  .button_first_left {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width:563px) {
+  .button_first_left {
+    margin-left: 38%;
+  }
+}
+
+@media (max-width:549px) {
+  .button_first_left {
+    margin-left: 36%;
+  }
+}
+
+@media (max-width:536px) {
+  .button_first_left {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width:529px) {
+  .button_first_left {
+    margin-left: 34%;
+  }
+}
+@media (max-width:523px) {
+  .button_first_left {
+    margin-left: 33%;
+  }
+  /* .button_arrows {
+    margin-right:-10%;
+  } */
+}
+@media (max-width:517px) {
+  .button_first_left {
+    margin-left: 32%;
+  }
+}
+
+@media (max-width:511px) {
+  .button_first_left {
+    margin-left: 31%;
+  }
+}
+@media (max-width:505px) {
+  .button_first_left {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width:599px) {
+  .button_first_left {
+    margin-left: 29%;
+  }
+} 
+@media (max-width:494px) {
+  .button_first_left {
+    margin-left: 28%;
+  }
+}
+@media (max-width:488px) {
+  .button_first_left {
+    margin-left: 27%;
+  }
+}
+@media (max-width:483px) {
+  .button_first_left {
+    margin-left: 26%;
+  }
+}
+@media (max-width:478px) {
+  .button_first_left {
+    margin-left: 25%;
+  }
+}
+@media (max-width:473px) {
+  .button_first_left {
+    margin-left: 24%;
+  }
+}

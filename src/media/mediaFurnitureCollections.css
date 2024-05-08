@@ -1,0 +1,30 @@
+@media (max-width:991px) {
+ .section_wrapper {
+  flex-direction: column;
+ }
+ .section_left {
+  width: 100% !important;
+ }
+ .section_right {
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 20px;
+  width: 100% !important;
+ }
+}
+
+@media (max-width:768px) {
+  .section_furnitureCollections,
+  .section_wrapper {
+    margin-top: 120px !important;
+    margin-bottom: 300px !important;
+   }
+ .section_left {
+  min-height: 350px !important;
+ }
+ .section_right {
+  flex-direction: column !important;
+ }
+}
+
+

@@ -1,0 +1,280 @@
+/* First navigation */
+nav.navbar.first-navigation {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--limerick) !important;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navbar-brand a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand a h5 {
+  font-weight: 400 !important;
+  font-size: 1rem;
+}
+
+.custom-navbar-text {
+  position: relative;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+.span-english, .custom-navbar-text,
+.custom-navbar-text a {
+  color: var(--white);
+  font-weight: 400 !important;
+  font-size: 1rem;
+}
+
+.span-english:hover, .custom-navbar-text a:hover,
+.custom-navbar-text span a:hover {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400 !important;
+  font-size: 1rem;
+}
+
+.first-navigation .nav-link.dropdown-toggle::after {
+  border-top-color: var(--white);
+}
+
+#navbarScrollingDropdown::after {
+  content: "";
+  display: none;
+}
+
+.custom-navbar-text::before {
+  content: '|';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lis {
+  margin-left: -90px !important;
+}
+
+.drop {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Second navigation */
+/* left */
+nav.navbar.second-navigation {
+  width: 100%;
+  padding: 20px 200px 20px;
+  background-color: var(--white) !important;
+}
+
+.navbar-brand a img{
+  width: 32px;
+  height: 39px;
+}
+
+.navbar-brand h4 {
+  color: var(--dark-grey);
+  font-size: 1.5rem;
+}
+
+/* center */
+.second-nav-center {
+  margin-left: 100px;
+}
+
+.second-nav-center form {
+  border: 2px solid var(--limerick);
+  border-radius: 10px;
+}
+
+form .nav-link {
+  margin-left: 0px;
+}
+
+.second-center-form-control {
+  font-family: var(--rubik);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.second-center-form-control::placeholder {
+  color: var(--light-grey);
+}
+
+.nav-categories {
+  font-family: var(--rubik);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.nav-categories .categories {
+  color: var(--dark-grey);
+}
+
+.nav-categories .categories i.categories-i {
+  font-size: 10px;
+  color: var(--dark-grey);
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+/* right */
+.icon {
+  width: 31px;
+  height: 32px;
+  object-fit: contain;
+  overflow-wrap: break-word;
+}
+
+a.nav-link + a.nav-link {
+  margin-left: 10px;
+}
+
+nav .icon{
+  position:relative;
+  top:-5px;
+}
+
+nav .goods{
+  position:absolute;
+  left:10px;
+  top:-6px;
+  color:var(--white);
+  background:var(--limerick);
+  font-size:11px;
+  text-align:center;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  line-height:15px;
+}
+
+/* Third navigation */
+/* left */
+.third-navigation {
+  width: 100%;
+  max-height: 67px;
+  background: var(--light-grey2) !important;
+}
+
+.third-container {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.third-navigation-button {
+  text-align: center !important;
+}
+
+.third-navigation-button .bi.bi-filter-left {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px; /* Отступ между иконкой и текстом */
+  font-size: 24px;
+}
+
+/* Стили для текста */
+.third-navigation-button span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.third-navigation-button button {
+  width: 260px !important;
+  max-width: 260px !important;
+  height: 67px !important;
+  background-color: var(--limerick);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.third-navigation-button button:hover {
+  background-color: var(--bright-green) !important;
+}
+
+.third-navigation-button .bi.bi-filter-left {
+  font-size: 24px;
+  margin-right: 18px;
+}
+
+.third-navigation-button .text {
+  display: inline-block !important;
+}
+
+.dropdown-menu {
+  background-color: var(--silver);
+  width: 260px;
+  max-width: 260px;
+}
+
+.dropdown-item {
+  color: var(--dark-grey) !important;
+  height: 24px;
+  font-size: 14px;
+  font-family: var(--rubik);
+  font-weight: 400;
+}
+
+/* right */
+.nav-link-custom {
+  color: var(--dark-grey);
+  font-size: 14px;
+  font-family: var(--rubik);
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-link-custom a + a {
+  margin-left:30px !important;
+}
+div.ms-auto.nav-link-custom.navbar-nav {  /* меню справа */
+  margin-left: 120px;
+}
+
+.nav-link-custom a:hover {
+  color: var(--limerick) !important;
+}
+
+#dropdown-basic::after {
+  display: none;
+}
+
+
+
+/* Navbar */
+nav.navbar {
+  /* position:absolute; */
+  width:100%;
+  /* background-image:var(--navigator); */
+  background-size: 400% 400%;
+  animation: gradientNavbarAnimation 10s ease infinite;
+  z-index: 1111;
+}
+
+@keyframes gradientNavbarAnimation {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.nav.navbar.collapsed {
+  transition: background-color 0.3s ease;
+}
